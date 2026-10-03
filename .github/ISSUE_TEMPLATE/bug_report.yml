@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible issue in SplitLens
+body:
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and version
+      placeholder: Edge 140 on Windows 11
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps and expected behavior
+      description: Include a small synthetic reproduction. Do not attach private datasets or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true

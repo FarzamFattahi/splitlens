@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.playwright-cli/
+test-results/
+playwright-report/
+.ruflo/
+.swarm/
+.claude-flow/
+.env*
+!.env.example
+*.tsbuildinfo
+.memory/
+memory/
+*.db
+*.db-*
+*.sqlite*
