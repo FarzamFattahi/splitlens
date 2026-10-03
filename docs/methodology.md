@@ -1,6 +1,6 @@
 # What SplitLens measures
 
-SplitLens is a review tool for image classification datasets. It computes reproducible, inexpensive image signals in your browser and helps you inspect candidates before changing your dataset. It does not train a model, infer semantic identity, inspect labels for correctness, or guarantee that a split is free of leakage.
+SplitLens is a review tool for image classification datasets. It computes inexpensive image signals in your browser or through its local Python package and helps you inspect candidates before changing your dataset. It does not train a model, infer semantic identity, inspect labels for correctness, or guarantee that a split is free of leakage.
 
 ## Processing and privacy
 
@@ -58,6 +58,16 @@ Every image starts **unreviewed**. **Keep** and **Exclude** are manual decisions
 - **Reviewed dataset ZIP:** original bytes for kept and unreviewed images; only manually excluded images are omitted. Broken files remain unless excluded. A missing included original produces an explicit error instead of a partial export. The manifest retains excluded rows for traceability.
 
 ZIP originals appear under `images/`. Paths have traversal segments, filesystem-special characters and Windows reserved names removed or replaced. Case-insensitive collisions receive numeric suffixes. Safe paths may therefore differ from original names; the manifest records both. Originals are never re-encoded. Export generation uses browser memory and should not be treated as an unbounded dataset storage pipeline.
+
+## Python implementation and exports
+
+The Python package scans image folders with Pillow and NumPy. It applies EXIF orientation, composites transparency on white, and uses Pillow bilinear resizing for the 9 × 8 hash and 128 × 128 measurement images. The formulas, split aliases, matching gates, and default thresholds above also apply to Python. A shared cached-measurement fixture checks that both engines reach the same matching decisions. Canvas and Pillow decoding/resampling can differ, so identical perceptual scores across runtimes are not guaranteed.
+
+Python accepts still JPEG, PNG, WebP, BMP, and AVIF images. Unsupported or corrupt encodings become findings; animated sequences are rejected. It checks dimensions before full decoding and bounds image count, encoded bytes, and decoded pixels with configurable `ScanLimits`. The scanner skips symlinks and Windows junctions with a warning. It does not read ZIP archives or annotations.
+
+`AuditReport` stores immutable records, findings, and explicit per-path decisions. Reanalysis reuses measurements and preserves decisions. Reports use the browser's version-1 field conventions with a source root and warnings added; the Python loader can read browser JSON with an explicit local root. The browser workspace has no JSON-import feature. JSON omits thumbnail bytes; HTML embeds previews only when scanning requested them.
+
+`export_dataset()` creates a new directory with the original relative paths and a `_splitlens/` directory containing the audit and manifest. Only explicitly excluded paths are omitted. Every retained file is checked against its audited SHA-256, including broken images when their bytes were readable. Changed, missing, redirected, or unverifiable sources fail the export. Portable path validation rejects traversal, reserved names, case-insensitive collisions, and the reserved metadata directory. Files are staged before an exclusive rename; an existing destination is never overwritten. Dataset originals remain untouched.
 
 ## Demo provenance
 

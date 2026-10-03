@@ -1,0 +1,167 @@
+{
+  "images": [
+    {
+      "id": "a",
+      "path": "train/class/a.png",
+      "split": "train",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "dhash": "a55aa55aa55aa55a",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    },
+    {
+      "id": "b",
+      "path": "validation/class/b.png",
+      "split": "validation",
+      "sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "dhash": "a55aa55aa55aa55a",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    },
+    {
+      "id": "c",
+      "path": "train/class/c.png",
+      "split": "train",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "dhash": "0ff00ff00ff00ff0",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    },
+    {
+      "id": "d",
+      "path": "test/class/d.png",
+      "split": "test",
+      "sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "dhash": "0ff00ff00ff00ff1",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    },
+    {
+      "id": "e",
+      "path": "train/class/e.png",
+      "split": "train",
+      "sha256": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "dhash": "0000000000000000",
+      "width": 64,
+      "height": 64,
+      "brightness": 10,
+      "sharpness": 0,
+      "meanRgb": [10, 10, 10]
+    },
+    {
+      "id": "f",
+      "path": "train/class/f.png",
+      "split": "train",
+      "sha256": "ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+      "dhash": "0000000000000000",
+      "width": 640,
+      "height": 480,
+      "brightness": 240,
+      "sharpness": 100,
+      "meanRgb": [240, 240, 240]
+    },
+    {
+      "id": "g",
+      "path": "train/class/g.png",
+      "split": "train",
+      "sha256": "",
+      "dhash": "",
+      "width": 0,
+      "height": 0,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120],
+      "error": "corrupt bytes"
+    },
+    {
+      "id": "h",
+      "path": "train/class/h.png",
+      "split": "train",
+      "sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+      "dhash": "0ff00ff00ff00ff0",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [170, 98, 99]
+    },
+    {
+      "id": "i",
+      "path": "unassigned/class/i.png",
+      "split": "unassigned",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "dhash": "33cc33cc33cc33cc",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    },
+    {
+      "id": "j",
+      "path": "train/class/j.png",
+      "split": "train",
+      "sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+      "dhash": "33cc33cc33cc33cc",
+      "width": 640,
+      "height": 480,
+      "brightness": 120,
+      "sharpness": 100,
+      "meanRgb": [120, 120, 120]
+    }
+  ],
+  "expected": [
+    {
+      "kind": "leakage",
+      "imageIds": ["a", "b"]
+    },
+    {
+      "kind": "leakage",
+      "imageIds": ["c", "d"]
+    },
+    {
+      "kind": "duplicate",
+      "imageIds": ["a", "b"]
+    },
+    {
+      "kind": "duplicate",
+      "imageIds": ["i", "j"]
+    },
+    {
+      "kind": "similar",
+      "imageIds": ["c", "d"]
+    },
+    {
+      "kind": "broken",
+      "imageIds": ["g"]
+    },
+    {
+      "kind": "blur",
+      "imageIds": ["e"]
+    },
+    {
+      "kind": "dark",
+      "imageIds": ["e"]
+    },
+    {
+      "kind": "bright",
+      "imageIds": ["f"]
+    },
+    {
+      "kind": "small",
+      "imageIds": ["e"]
+    }
+  ]
+}

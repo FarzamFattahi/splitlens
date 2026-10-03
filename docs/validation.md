@@ -27,6 +27,14 @@ The 29-image synthetic demo completed its actual worker analysis in approximatel
 
 The demo contains self-created scenes, intentional defects and a corrupt file. It verifies the workflow and known defect cases, rather than measuring generalization to real photographs. Canvas interpolation and decoding can cause perceptual scores to vary slightly by browser.
 
+## Python companion verification
+
+Version 1.1.0 adds the independently installable Python library and CLI. On Windows with Python 3.12.14, **129 Python tests passed**. Three tests requiring symbolic-link privileges were skipped on this account; actual Windows junction tests passed. The browser suite now contains **35 passing unit tests**, including a matching-decision fixture shared with Python.
+
+Python tests exercise actual JPEG, PNG, WebP, BMP, and AVIF images; corruption and animated sequences; EXIF orientation and transparency; configurable count/byte/pixel bounds; split overrides; exact and perceptual candidates; numerical gates; immutable decisions; report loading; escaped HTML previews; formula-safe CSV; pipeline exit codes; changed-source detection; and original-byte dataset export. Failure tests cover existing destinations, path traversal, source/report overwrite, and redirected sources. GitHub Actions runs Python tests and formatting checks on Windows and Linux with Python 3.11, 3.12, and 3.14, then builds and validates wheel/source distributions.
+
+The shared fixture covers decisions from cached measurements. It does not assert identical pixel decoding between Pillow and Canvas, nor benchmark accuracy on real labeled datasets. The Python dependency environment passes `pip check`; distribution metadata is checked with Twine. Release validation also installs the wheel in a fresh environment and audits/exports the generated example dataset through the installed CLI.
+
 ## Reproduce
 
 ```bash
@@ -35,6 +43,15 @@ npm test
 npm run build
 npx playwright install chromium
 npm run test:e2e
+```
+
+```bash
+python -m pip install -e "./python[dev]"
+python -m pytest python/tests -q
+python -m ruff check python
+python -m ruff format --check python
+python -m build python
+python -m twine check python/dist/*
 ```
 
 Windows browser tests use installed Edge by default. Set `PLAYWRIGHT_CHANNEL=chromium` to use the Playwright browser there. Linux CI uses bundled Chromium. The public static app runs over HTTPS; a local development server provides the secure context required by Web Crypto.

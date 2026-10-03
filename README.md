@@ -2,15 +2,15 @@
 
 **Image dataset preflight. Private by design.**
 
-[Open the app](https://farzamfattahi.github.io/splitlens/) · [How it works](docs/methodology.md) · [Validation](docs/validation.md) · [Contributing](CONTRIBUTING.md)
+[Open the app](https://farzamfattahi.github.io/splitlens/) · [Python package](python/README.md) · [How it works](docs/methodology.md) · [Validation](docs/validation.md)
 
-SplitLens helps computer-vision developers find image duplicates, potential leakage between dataset splits, and image-quality issues **before training**. Open the app, import a folder or ZIP, inspect the evidence, and export your decisions. Images are processed on your device; there is no backend, account, image upload, or model download.
+SplitLens helps computer-vision developers find image duplicates, potential leakage between dataset splits, and image-quality issues **before training**. Use the browser workspace for visual review, or the **Python library and CLI** in your own scripts and pipelines. Images are processed on your device; there is no backend, account, image upload, or model download.
 
 ![Actual SplitLens workspace, analyzing the built-in synthetic dataset](docs/screenshots/overview.png)
 
 ## Why another dataset tool?
 
-[FiftyOne](https://docs.voxel51.com/recipes/image_deduplication.html), [fastdup](https://github.com/visual-layer/fastdup), and [CleanVision](https://github.com/cleanlab/cleanvision) offer powerful dataset inspection. SplitLens is a smaller entry point for a different workflow: **visit a URL, check a modest image dataset privately, review visual evidence, and leave with a portable repair manifest**. No Python environment or cloud dataset service is needed.
+[FiftyOne](https://docs.voxel51.com/recipes/image_deduplication.html), [fastdup](https://github.com/visual-layer/fastdup), and [CleanVision](https://github.com/cleanlab/cleanvision) offer powerful dataset inspection. SplitLens is a smaller entry point for a different workflow: **check a modest image dataset privately, review evidence, and leave with a portable repair manifest**. The browser app needs no Python environment. The Python package brings the same matching rules to local automation with NumPy and Pillow.
 
 This is an independent implementation of established image-processing techniques, not a claim to have invented duplicate detection. Its product contribution is the browser-only, split-aware review and handoff workflow.
 
@@ -23,6 +23,36 @@ This is an independent implementation of established image-processing techniques
 - Export a CSV decision manifest, versioned JSON audit, standalone visual HTML report, or curated ZIP retaining original file bytes.
 
 **Nothing is automatically deleted or excluded.** Unreviewed images remain in dataset exports. Original files are never modified.
+
+## Use from Python
+
+Requires Python **3.11+**. Install the wheel from the GitHub release:
+
+```bash
+python -m pip install https://github.com/FarzamFattahi/splitlens/releases/download/v1.1.0/splitlens-1.1.0-py3-none-any.whl
+```
+
+```python
+from splitlens import audit
+
+report = audit("my-dataset", thumbnails=True)
+print(report.summary)
+report.save_html("audit.html")
+report.save_json("audit.json")
+
+# Choose exclusions after reviewing the findings. Originals stay untouched.
+reviewed = report.exclude(["test/cup/copy.png"])
+reviewed.export_dataset("my-dataset-reviewed")  # new directory
+```
+
+Or use the terminal:
+
+```bash
+splitlens audit my-dataset --html audit.html --json audit.json
+splitlens export audit.json my-dataset-reviewed --exclude test/cup/copy.png
+```
+
+Install from a clone with `python -m pip install ./python`. The package is distributed through GitHub; this release does not require a PyPI account or API keys. See the [Python guide](python/README.md) for settings, split overrides, resource limits, report loading, and pipeline exit codes.
 
 ## Use it now
 
@@ -76,6 +106,8 @@ The public app is a static build deployed to GitHub Pages by the included workfl
 
 Images, extracted files, thumbnails, and review decisions stay in browser memory during the session. Reloading clears them and restores the demo. Download your review before leaving. Fonts are bundled locally; the app uses no analytics, remote models, or third-party image requests. Opening GitHub links navigates to GitHub normally.
 
+The Python scanner reads folders sequentially and performs no network requests. Reports persist only when you save them. Dataset export verifies source hashes and writes to a new directory, preserving original bytes and folder structure. Symbolic links and junctions are skipped during scanning; export rejects redirected or changed sources. Python limits are configurable; browser limits are fixed.
+
 JSON / CSV reports include filenames and measurements. Visual HTML reports also embed thumbnails. Treat downloaded reports according to the sensitivity of your dataset.
 
 - JPEG, PNG, WebP, AVIF, and BMP, subject to browser decoding support. Animated formats and SVG are excluded.
@@ -101,6 +133,8 @@ src/audit-client.ts  → audit.worker.ts  → engine.ts
 ```
 
 The pure engine and export helpers are separated from browser decoding so numerical behavior, split logic, archive validation, and decision semantics can be tested independently. See [methodology](docs/methodology.md) for formulas and tradeoffs.
+
+The independently installable `python/` package uses Pillow for decoding and NumPy for measurements. Its typed, immutable audit results support reanalysis, explicit decisions, JSON/CSV/HTML reports, and verified directory exports. A shared fixture checks matching decisions across TypeScript and Python; image-resizing measurements can differ between Canvas and Pillow.
 
 ## Contributing
 

@@ -2,6 +2,8 @@
 
 Use Node 22.12+ and `npm ci`. Run `npm test`, `npm run build`, and the Playwright browser suite before submitting changes. The CI workflow runs these checks.
 
+For the Python package, use Python 3.11+ and `python -m pip install -e "./python[dev]"`. Run `python -m ruff check python`, `python -m ruff format --check python`, and `python -m pytest python/tests -q`. Build distributions with `python -m build python` and check them with `python -m twine check python/dist/*`. Python CI covers Windows and Linux on Python 3.11, 3.12, and 3.14. Keep `python/tests/fixtures/matching.json` and its TypeScript contract test aligned when matching rules change.
+
 Keep image processing local and claims transparent. New matching methods should explain their limitations and come with meaningful tests. Avoid automatic exclusions: the user must explicitly decide what leaves an exported dataset. Preserve original bytes and safe archive paths.
 
 The UI uses locally bundled Geist fonts, a neutral palette with one blue action color, 7px controls and 10–12px panels, visible focus states, and reduced-motion support. Verify a narrow phone viewport and a desktop viewport, including import, errors, empty results, and dialogs. Use accessible labels and avoid conveying a finding only through color.
