@@ -207,8 +207,12 @@ python python/examples/render_beans_case_study.py --workdir .datasets/beans --ou
         *sorted(set(urls.values())),
     ]
     for name in names:
+        # Match the repository's LF policy before hashing, on every platform.
+        asset = output / name
+        if asset.suffix != ".jpg":
+            asset.write_text(asset.read_text(encoding="utf-8"), encoding="utf-8", newline="\n")
         checksums.append(hashlib.sha256((output / name).read_bytes()).hexdigest() + "  " + name)
-    (output / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="utf-8")
+    (output / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="utf-8", newline="\n")
     print(f"Published {len(names)} snapshot assets to {output}")
 
 
