@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Setup and troubleshooting
+    url: https://github.com/FarzamFattahi/splitlens/blob/main/docs/troubleshooting.md
+    about: Fix common installation, dataset, report, and export problems.
+  - name: Start with a working example
+    url: https://github.com/FarzamFattahi/splitlens/blob/main/docs/quickstart.md
+    about: Try the browser app or a complete Python demo before filing an issue.

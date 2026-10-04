@@ -10,6 +10,8 @@ Use the app for interactive review; use this package when your dataset already l
 in a Python workflow. Processing stays on your computer. No server, account, GPU,
 PyTorch, model downloads, or network access is needed to audit a dataset.
 
+[Start with a working example](../docs/quickstart.md#python-and-terminal) · [API reference](../docs/python-api.md) · [Troubleshooting](../docs/troubleshooting.md)
+
 ## Install
 
 Python 3.11 or newer is required. Install the release wheel directly from GitHub:

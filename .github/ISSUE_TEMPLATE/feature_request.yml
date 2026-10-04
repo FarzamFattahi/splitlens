@@ -1,0 +1,30 @@
+name: Feature request
+description: Suggest a practical improvement to dataset auditing or review.
+title: '[Feature]: '
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      description: Describe the dataset workflow and who would benefit. Use synthetic examples rather than private data.
+    validations:
+      required: true
+  - type: dropdown
+    id: interface
+    attributes:
+      label: Where would this help?
+      options:
+        - Browser workspace
+        - Python library
+        - Command line
+        - Documentation
+        - Multiple interfaces
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the desired result and any alternatives you have tried.
+    validations:
+      required: true

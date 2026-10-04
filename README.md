@@ -1,18 +1,33 @@
+![SplitLens — Better data. Before training. Browser workspace and Python library + CLI.](docs/assets/splitlens-banner.png)
+
 # SplitLens
 
 **Image dataset preflight. Private by design.**
 
-[Open the app](https://farzamfattahi.github.io/splitlens/) · [Python package](python/README.md) · [How it works](docs/methodology.md) · [Validation](docs/validation.md)
+[Open the app](https://farzamfattahi.github.io/splitlens/) · [Start here](docs/quickstart.md) · [Python guide](python/README.md) · [Troubleshooting](docs/troubleshooting.md)
+
+[![Python package checks](https://github.com/FarzamFattahi/splitlens/actions/workflows/python.yml/badge.svg)](https://github.com/FarzamFattahi/splitlens/actions/workflows/python.yml)
+[![Browser checks](https://github.com/FarzamFattahi/splitlens/actions/workflows/ci.yml/badge.svg)](https://github.com/FarzamFattahi/splitlens/actions/workflows/ci.yml)
 
 SplitLens helps computer-vision developers find image duplicates, potential leakage between dataset splits, and image-quality issues **before training**. Use the browser workspace for visual review, or the **Python library and CLI** in your own scripts and pipelines. Images are processed on your device; there is no backend, account, image upload, or model download.
 
 ![Actual SplitLens workspace, analyzing the built-in synthetic dataset](docs/screenshots/overview.png)
 
+## Choose your workflow
+
+| You want to…                             | Use                                                             | Input                 | Output                                          |
+| ---------------------------------------- | --------------------------------------------------------------- | --------------------- | ----------------------------------------------- |
+| Inspect images and decide visually       | [Browser workspace](https://farzamfattahi.github.io/splitlens/) | Folder, files, or ZIP | CSV, JSON, visual HTML, curated ZIP             |
+| Audit from a notebook or training script | [Python library](python/README.md)                              | Image folder          | Typed findings, reports, curated folder         |
+| Run checks in a terminal or pipeline     | [CLI](docs/quickstart.md#python-and-terminal)                   | Image folder          | Reports, optional CI exit codes, curated folder |
+
+**New here?** Follow the [quickstart](docs/quickstart.md) for a working example, then use the [API reference](docs/python-api.md) to integrate it. Python 3.11+ is required only for the package; the public browser app needs no installation.
+
 ## Why another dataset tool?
 
 [FiftyOne](https://docs.voxel51.com/recipes/image_deduplication.html), [fastdup](https://github.com/visual-layer/fastdup), and [CleanVision](https://github.com/cleanlab/cleanvision) offer powerful dataset inspection. SplitLens is a smaller entry point for a different workflow: **check a modest image dataset privately, review evidence, and leave with a portable repair manifest**. The browser app needs no Python environment. The Python package brings the same matching rules to local automation with NumPy and Pillow.
 
-This is an independent implementation of established image-processing techniques, not a claim to have invented duplicate detection. Its product contribution is the browser-only, split-aware review and handoff workflow.
+This is an independent implementation of established image-processing techniques, not a claim to have invented duplicate detection. Its product contribution is a private, split-aware review and handoff workflow, available through a browser and a small Python package.
 
 ## What you can do
 
@@ -53,6 +68,17 @@ splitlens export audit.json my-dataset-reviewed --exclude test/cup/copy.png
 ```
 
 Install from a clone with `python -m pip install ./python`. The package is distributed through GitHub; this release does not require a PyPI account or API keys. See the [Python guide](python/README.md) for settings, split overrides, resource limits, report loading, and pipeline exit codes.
+
+Try the complete workflow on a generated fixture after cloning:
+
+```bash
+python -m pip install ./python
+python python/examples/make_demo.py demo-dataset
+python -m splitlens audit demo-dataset --html review.html --json audit.json
+python -m splitlens export audit.json demo-curated --exclude test/cup/copy.png --exclude train/cup/broken.png
+```
+
+Open `review.html` to inspect the evidence. The example keeps the original five files and writes three retained files to a new folder. The [quickstart](docs/quickstart.md) explains the decisions and the remaining findings.
 
 ## Use it now
 
@@ -139,6 +165,14 @@ The independently installable `python/` package uses Pillow for decoding and Num
 ## Contributing
 
 Bug reports should include browser version, expected behavior, and a small synthetic reproduction rather than private image data. See [CONTRIBUTING.md](CONTRIBUTING.md). Useful future work includes benchmarking perceptual matching against a public labeled dataset and optional local embedding models; neither is claimed by this release.
+
+## Documentation
+
+- [Quickstart](docs/quickstart.md): browser, Python, terminal, and a complete sample review.
+- [Python guide](python/README.md) and [API reference](docs/python-api.md): installation, settings, decisions, reports, and verified exports.
+- [Troubleshooting](docs/troubleshooting.md): common setup, input, and export problems.
+- [Methodology](docs/methodology.md) and [validation](docs/validation.md): formulas, test evidence, and interpretation limits.
+- [Releases](https://github.com/FarzamFattahi/splitlens/releases): installable wheel, source archive, and checksums.
 
 ## License
 

@@ -1,11 +1,22 @@
 name: Bug report
 description: Report a reproducible issue in SplitLens
 body:
-  - type: input
-    id: browser
+  - type: dropdown
+    id: interface
     attributes:
-      label: Browser and version
-      placeholder: Edge 140 on Windows 11
+      label: Which interface are you using?
+      options:
+        - Browser workspace
+        - Python library
+        - Command line
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment and version
+      description: Include your operating system, SplitLens version, and browser or Python version.
+      placeholder: Windows 11, Python 3.12, SplitLens 1.1.0
     validations:
       required: true
   - type: textarea
