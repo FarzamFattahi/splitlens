@@ -1,0 +1,83 @@
+{
+  "source": {
+    "dataset": "Makerere AI Lab Beans",
+    "homepage": "https://github.com/AI-Lab-Makerere/ibean",
+    "mirror": "https://huggingface.co/datasets/AI-Lab-Makerere/beans",
+    "revision": "27aa014ce09b193e1a6f58112d4a66e0eddb69c5",
+    "license": "MIT",
+    "copyright": "Copyright (c) 2020 AIR Lab Makerere University",
+    "archives": [
+      {
+        "split": "test",
+        "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/test.zip?download=true",
+        "bytes": 17708541,
+        "sha256": "ca67b15d960d1e2fd9d23fd8498ce86818ead90755c630a43baf19ec4af09312"
+      },
+      {
+        "split": "validation",
+        "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/validation.zip?download=true",
+        "bytes": 18504213,
+        "sha256": "90b7aa1c26d91d9afff07a30bbc67a5ea34f1f1397f068d8675be09d7d0c602d"
+      },
+      {
+        "split": "train",
+        "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/train.zip?download=true",
+        "bytes": 143812152,
+        "sha256": "284fe8456ce20687f4367ae7ad94a64577e7f9fde2c2c6b1c74340ab5dc82715"
+      }
+    ]
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "splitlens": "1.1.0",
+    "numpy": "2.5.3",
+    "pillow": "12.3.0"
+  },
+  "settings": {
+    "similarity": 4,
+    "blur": 60.0,
+    "dark": 35.0,
+    "bright": 225.0,
+    "minSize": 256,
+    "maxPairs": 2000
+  },
+  "summary": {
+    "images": 1295,
+    "findings": 0,
+    "by_kind": {
+      "leakage": 0,
+      "duplicate": 0,
+      "similar": 0,
+      "blur": 0,
+      "dark": 0,
+      "bright": 0,
+      "small": 0,
+      "broken": 0
+    },
+    "excluded": 0,
+    "reviewed": 0
+  },
+  "images_by_split": {
+    "test": 128,
+    "train": 1034,
+    "validation": 133
+  },
+  "images_by_label": {
+    "angular_leaf_spot": 432,
+    "bean_rust": 436,
+    "healthy": 427
+  },
+  "encoded_bytes": 179908729,
+  "elapsed_seconds": 39.6628866000101,
+  "warnings": [],
+  "modified_source_files": 0,
+  "ignored_archive_entries": [
+    {
+      "path": "train/healthy/healthy_train.120tore",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3",
+      "reason": "Unsupported extension; not an audited image"
+    }
+  ]
+}

@@ -23,6 +23,14 @@ SplitLens helps computer-vision developers find image duplicates, potential leak
 
 **New here?** Follow the [quickstart](docs/quickstart.md) for a working example, then use the [API reference](docs/python-api.md) to integrate it. Python 3.11+ is required only for the package; the public browser app needs no installation.
 
+## Tested on real photographs
+
+[Explore the illustrated Beans case study](https://farzamfattahi.github.io/splitlens/case-studies/beans/) · [Reproduce the experiment](docs/case-studies/beans/README.md)
+
+The published Python wheel audited **1,295 real Makerere bean-leaf photographs**. The original dataset produced **0 default findings**. A looser similarity threshold produced seven review candidates, including one cross-split pair with unresolved specimen provenance; no duplicate photograph was confirmed.
+
+In a separate copy, **six deliberately added defects produced 14 findings** and passed all six expected checks. Explicitly excluding those added files restored all **1,295 original images with unchanged SHA-256 hashes**. The report includes actual photographs, downloadable audits and CSVs, source checksums, honest limitations, and a runnable reproduction script.
+
 ## Why another dataset tool?
 
 [FiftyOne](https://docs.voxel51.com/recipes/image_deduplication.html), [fastdup](https://github.com/visual-layer/fastdup), and [CleanVision](https://github.com/cleanlab/cleanvision) offer powerful dataset inspection. SplitLens is a smaller entry point for a different workflow: **check a modest image dataset privately, review evidence, and leave with a portable repair manifest**. The browser app needs no Python environment. The Python package brings the same matching rules to local automation with NumPy and Pillow.

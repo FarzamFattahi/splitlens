@@ -1,0 +1,28 @@
+{
+  "dataset": "Makerere AI Lab Beans",
+  "homepage": "https://github.com/AI-Lab-Makerere/ibean",
+  "mirror": "https://huggingface.co/datasets/AI-Lab-Makerere/beans",
+  "revision": "27aa014ce09b193e1a6f58112d4a66e0eddb69c5",
+  "license": "MIT",
+  "copyright": "Copyright (c) 2020 AIR Lab Makerere University",
+  "archives": [
+    {
+      "split": "test",
+      "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/test.zip?download=true",
+      "bytes": 17708541,
+      "sha256": "ca67b15d960d1e2fd9d23fd8498ce86818ead90755c630a43baf19ec4af09312"
+    },
+    {
+      "split": "validation",
+      "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/validation.zip?download=true",
+      "bytes": 18504213,
+      "sha256": "90b7aa1c26d91d9afff07a30bbc67a5ea34f1f1397f068d8675be09d7d0c602d"
+    },
+    {
+      "split": "train",
+      "url": "https://huggingface.co/datasets/AI-Lab-Makerere/beans/resolve/27aa014ce09b193e1a6f58112d4a66e0eddb69c5/data/train.zip?download=true",
+      "bytes": 143812152,
+      "sha256": "284fe8456ce20687f4367ae7ad94a64577e7f9fde2c2c6b1c74340ab5dc82715"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+[
+  {
+    "similarity": 4,
+    "summary": {
+      "images": 1295,
+      "findings": 0,
+      "by_kind": {
+        "leakage": 0,
+        "duplicate": 0,
+        "similar": 0,
+        "blur": 0,
+        "dark": 0,
+        "bright": 0,
+        "small": 0,
+        "broken": 0
+      },
+      "excluded": 0,
+      "reviewed": 0
+    }
+  },
+  {
+    "similarity": 8,
+    "summary": {
+      "images": 1295,
+      "findings": 8,
+      "by_kind": {
+        "leakage": 1,
+        "duplicate": 0,
+        "similar": 7,
+        "blur": 0,
+        "dark": 0,
+        "bright": 0,
+        "small": 0,
+        "broken": 0
+      },
+      "excluded": 0,
+      "reviewed": 0
+    }
+  },
+  {
+    "similarity": 12,
+    "summary": {
+      "images": 1295,
+      "findings": 159,
+      "by_kind": {
+        "leakage": 40,
+        "duplicate": 0,
+        "similar": 119,
+        "blur": 0,
+        "dark": 0,
+        "bright": 0,
+        "small": 0,
+        "broken": 0
+      },
+      "excluded": 0,
+      "reviewed": 0
+    }
+  }
+]

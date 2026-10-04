@@ -1,0 +1,4 @@
+# Recorded case-study environment; Python 3.12+ (NumPy 2.5 requires it).
+numpy==2.5.3
+Pillow==12.3.0
+splitlens @ https://github.com/FarzamFattahi/splitlens/releases/download/v1.1.0/splitlens-1.1.0-py3-none-any.whl#sha256=1fa46494ed43c62fb516f2e3ed4c04f6e030d44de10686009446fe8bff308b0a

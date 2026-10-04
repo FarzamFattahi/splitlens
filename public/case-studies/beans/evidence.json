@@ -1,0 +1,210 @@
+[
+  {
+    "path": "test/angular_leaf_spot/angular_leaf_spot_test.0.jpg",
+    "injected": false,
+    "preview": "images/020c166cf3331677.jpg",
+    "preview_sha256": "020c166cf3331677abffeb70129a30d688a5a10ae4c7c4d5620943da71182de5",
+    "original_sha256": "e7ac409cda99b323fa9d70f07902f2d88ceee90f3e2a920de0cccb931598cae1",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "test/bean_rust/bean_rust_test.0.jpg",
+    "injected": false,
+    "preview": "images/815ce3a48176bfda.jpg",
+    "preview_sha256": "815ce3a48176bfda52962c0fccc1eb22d452a2bce11592357ca545faf77e2316",
+    "original_sha256": "794e13ecedb37190014ef48a69c601d66dc7b5bea7198d70c9122a78aaa1ed08",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "test/healthy/healthy_test.0.jpg",
+    "injected": false,
+    "preview": "images/6a994edcdfd775ae.jpg",
+    "preview_sha256": "6a994edcdfd775ae616994d1b4fe0ab0cfa0afd11d76765e79ceb9fbe8e53d6e",
+    "original_sha256": "520786de35cd8246bf35a05feca05bc520d3b138e4380a5b575d044585eefc77",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "test/healthy/healthy_test.22.jpg",
+    "injected": false,
+    "preview": "images/1688649186a070fa.jpg",
+    "preview_sha256": "1688649186a070faa2a0746d7b6450a056f8615d6adcbcf60370b909b865595f",
+    "original_sha256": "88050eb4f87fc6636424365e4137e2b60b4e15cc0f03a22a881e0becea0196c5",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/angular_leaf_spot/angular_leaf_spot_train.0.jpg",
+    "injected": false,
+    "preview": "images/baa9a9d86b22be15.jpg",
+    "preview_sha256": "baa9a9d86b22be1515d2fde8ab0086dee48c2a4d89df9eda60bb523a2e37fca9",
+    "original_sha256": "581604b273ba420fb821f558c036ccfcdffa128b80c688e5c46288b4482ab534",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/angular_leaf_spot/angular_leaf_spot_train.1.jpg",
+    "injected": false,
+    "preview": "images/dc5a286090e2ab98.jpg",
+    "preview_sha256": "dc5a286090e2ab98f5179a5cf6b15ebc614f6cd6799c37877246919a1adad375",
+    "original_sha256": "4a6cbe1a7cd7ed05bc393b52a3590cdd4815d310129a0e24b0dfb1b80a86bd6c",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/angular_leaf_spot/angular_leaf_spot_train.178.jpg",
+    "injected": false,
+    "preview": "images/16b6c82f043e4d5a.jpg",
+    "preview_sha256": "16b6c82f043e4d5a3bff79c35600eceee1c12d879b323798ec4a84a3a61217c7",
+    "original_sha256": "d2d62518654d7b0b6f03ec67e1554a8ed2baa271ad85082cd668e5ba0d525e1a",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/angular_leaf_spot/angular_leaf_spot_train.298.jpg",
+    "injected": false,
+    "preview": "images/dfe86de3b2ed4573.jpg",
+    "preview_sha256": "dfe86de3b2ed45738a924aed1fc8aa6ac5c44e1d52d1a4f9d2f537a5c0675450",
+    "original_sha256": "0952c5dce2434b903b34feed62b95e6a579c2189326d8ab93626947937feec67",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/angular_leaf_spot/angular_leaf_spot_train.96.jpg",
+    "injected": false,
+    "preview": "images/f4909bec48b87381.jpg",
+    "preview_sha256": "f4909bec48b873811bcde763aacb3b2a75ee154ea3bdf06d672f0e080e5fd591",
+    "original_sha256": "b44de8f1a7675925f72e7949e0a3e3c2569f887f8d335af07c5a863beb84cdc7",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/bean_rust/bean_rust_train.0.jpg",
+    "injected": false,
+    "preview": "images/184302a8d334f4ca.jpg",
+    "preview_sha256": "184302a8d334f4caec6000b7d2d061764a2c8881ef5ccf7952bafa1d95c3b680",
+    "original_sha256": "7983f1e3f538a1aeac96a07618511e742c367e52135438f24d538f69e893c651",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/bean_rust/bean_rust_train.29.jpg",
+    "injected": false,
+    "preview": "images/f746b5413a725f6d.jpg",
+    "preview_sha256": "f746b5413a725f6d9f05e9a6c499182ed06d9da41d4350fdec78c38530acc802",
+    "original_sha256": "9ccc1be4f088513d1ddc3a11514b06f44dd2500e4b6d835e90e5149d5b068eae",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/bean_rust/bean_rust_train.328.jpg",
+    "injected": false,
+    "preview": "images/d730ca94a932efec.jpg",
+    "preview_sha256": "d730ca94a932efec3b1a5bf2535ee6c4b84962e763c1714a672ab8586dba6648",
+    "original_sha256": "3612bd5f737ad22ba342712fed90981aa8e4854ed192714e95fa87fe40c84f6a",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.0.jpg",
+    "injected": false,
+    "preview": "images/cbe6ae078435177d.jpg",
+    "preview_sha256": "cbe6ae078435177d20b2f9d1e51d4c527d1db182e9251043a8beadf5ddd7a570",
+    "original_sha256": "70d70ea39346062c67f7288d13ee1a18527fbe5cd4b93637639c9a89f032ca06",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.125.jpg",
+    "injected": false,
+    "preview": "images/c2bad7a70a16d16a.jpg",
+    "preview_sha256": "c2bad7a70a16d16ad156e8e1c5f89102eebe5c9941064885b50fe081b9fbf20f",
+    "original_sha256": "ab326931515498023bbee68386249ec81bb1f91074b220e293335a05497836a0",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.136.jpg",
+    "injected": false,
+    "preview": "images/e4bb1be3d80c82f6.jpg",
+    "preview_sha256": "e4bb1be3d80c82f6a0ad688dadd70a76c33eeaa2c6c83a9cd7b405f566c8efd1",
+    "original_sha256": "a826310553cb74516b5d71498ae1a31bea70ea6ac51e4ff374f87ca29b6916c3",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.153.jpg",
+    "injected": false,
+    "preview": "images/7c41ed08d4bddb80.jpg",
+    "preview_sha256": "7c41ed08d4bddb80fd306f7103252df9cabc97d829533f63689adf3ce1f4ded1",
+    "original_sha256": "61326bc479aaf785031ef3f72c65074bcd0b02bbd8b1fbe641ac38477af0a07b",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.34.jpg",
+    "injected": false,
+    "preview": "images/5170b5cc2168e4b0.jpg",
+    "preview_sha256": "5170b5cc2168e4b0ddb67317ba9d076b6661a15a511549194edf05ce08f4946b",
+    "original_sha256": "b914c16201333cebc1727bce0d666ebb989f524e7a44c194a0ec774ad17c8f2b",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/healthy_train.69.jpg",
+    "injected": false,
+    "preview": "images/e99a150e3ad6b399.jpg",
+    "preview_sha256": "e99a150e3ad6b39993a4da1e627e82dcca0aa8a29d40dbfd04fd4b087e362c4a",
+    "original_sha256": "0dcb4d18428f1f77e2067bcbe23b9a740418d7a6a43bae9b0ba2951efcbc90a8",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "validation/angular_leaf_spot/angular_leaf_spot_val.0.jpg",
+    "injected": false,
+    "preview": "images/6b985404cd88ab93.jpg",
+    "preview_sha256": "6b985404cd88ab938845c59dc24dd5539e35b5fb9e15106d9fc86e38e3a5f4de",
+    "original_sha256": "0ed3b17803cc701f1504952556064cc73436216ba10cbb691f850faec056cdf2",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "validation/bean_rust/bean_rust_val.0.jpg",
+    "injected": false,
+    "preview": "images/e2271adbb2a7d1dd.jpg",
+    "preview_sha256": "e2271adbb2a7d1dde688cdde9a6c257c7f8d1925b9669191e8797f3dd414439a",
+    "original_sha256": "76e4dcf4fe49a9c0957bfc86e97ce4c1755113fa7a2d16e40acb8dbe2b900c46",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "validation/healthy/healthy_val.0.jpg",
+    "injected": false,
+    "preview": "images/e82990b52a92adf3.jpg",
+    "preview_sha256": "e82990b52a92adf3c306a75519314a714ae842fa4bf6c94b6fcbb30cdb2275d3",
+    "original_sha256": "dfd5a598b509ca4de6244fde7757aaabb6065c4511f7bf62ecf0eec0f3de4550",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "test/healthy/zz_splitlens_exact-copy.jpg",
+    "injected": true,
+    "preview": "images/cbe6ae078435177d.jpg",
+    "preview_sha256": "cbe6ae078435177d20b2f9d1e51d4c527d1db182e9251043a8beadf5ddd7a570",
+    "original_sha256": "70d70ea39346062c67f7288d13ee1a18527fbe5cd4b93637639c9a89f032ca06",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "validation/angular_leaf_spot/zz_splitlens_reencoded.jpg",
+    "injected": true,
+    "preview": "images/4c5cdfe0818177fa.jpg",
+    "preview_sha256": "4c5cdfe0818177fadb47c8789bce7f701a53229a982ec6ef5726daa49083a5af",
+    "original_sha256": "5fc6bc58bd0040719d3f8f11a4ed7dd7bcd85c149daa37fe6479e42dc9a5a4f0",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/bean_rust/zz_splitlens_blurred.jpg",
+    "injected": true,
+    "preview": "images/2a95b93ad6ae38a8.jpg",
+    "preview_sha256": "2a95b93ad6ae38a8c0d6f32dfbf94a5e4b9e4d07a9be600e3a7c63498e87d836",
+    "original_sha256": "fa87991cb9a0cc5b5e08312476820c98e28cb69dc11f0c6b38b5f727be24d1db",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "validation/bean_rust/zz_splitlens_small.jpg",
+    "injected": true,
+    "preview": "images/523eb1886d1957b6.jpg",
+    "preview_sha256": "523eb1886d1957b6bb5da76f126453573b3d0c7ed4db5de5d5e8c07554bca038",
+    "original_sha256": "f51ba25833f228670365b739aff3b597ab92bafdccb4a4dfa71990e36a69b2ad",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  },
+  {
+    "path": "train/healthy/zz_splitlens_dark.jpg",
+    "injected": true,
+    "preview": "images/fa3c316fbb00b989.jpg",
+    "preview_sha256": "fa3c316fbb00b989a55a075cd9ae39aca69f7c57b6600a0590e931b62eb343db",
+    "original_sha256": "9b7c4dd488b716a4af30d33ccee2ad638322f6ec42f5932ddb1aff0393e126f8",
+    "method": "Cached SplitLens audit JPEG preview; white-composited, at most 280×280"
+  }
+]

@@ -14,6 +14,8 @@ PyTorch, model downloads, or network access is needed to audit a dataset.
 
 ## Install
 
+For a complete real-data example, see the [Makerere Beans case study](../docs/case-studies/beans/README.md): download verified source archives, audit 1,295 photographs, inspect threshold sensitivity, and test six controlled defects before exporting a byte-verified repair. The experiment uses the published wheel and pins its dependencies with Python 3.12+. Its [illustrated report](https://farzamfattahi.github.io/splitlens/case-studies/beans/) includes downloadable JSON and CSV evidence.
+
 Python 3.11 or newer is required. Install the release wheel directly from GitHub:
 
 ```bash

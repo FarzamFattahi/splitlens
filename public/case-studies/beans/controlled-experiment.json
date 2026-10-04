@@ -1,0 +1,146 @@
+{
+  "type": "controlled_contamination_not_natural_defects",
+  "injected_files": [
+    {
+      "injected": true,
+      "path": "test/healthy/zz_splitlens_exact-copy.jpg",
+      "source_path": "train/healthy/healthy_train.0.jpg",
+      "operation": "exact",
+      "description": "Original encoded bytes copied into the test split",
+      "expected_kinds": [
+        "duplicate",
+        "leakage"
+      ],
+      "sha256": "70d70ea39346062c67f7288d13ee1a18527fbe5cd4b93637639c9a89f032ca06",
+      "detected_kinds": [
+        "duplicate",
+        "leakage"
+      ],
+      "expected_detection_passed": true
+    },
+    {
+      "injected": true,
+      "path": "validation/angular_leaf_spot/zz_splitlens_reencoded.jpg",
+      "source_path": "train/angular_leaf_spot/angular_leaf_spot_train.0.jpg",
+      "operation": "reencode",
+      "description": "Same pixels re-encoded as JPEG quality 92",
+      "expected_kinds": [
+        "similar",
+        "leakage"
+      ],
+      "sha256": "5fc6bc58bd0040719d3f8f11a4ed7dd7bcd85c149daa37fe6479e42dc9a5a4f0",
+      "detected_kinds": [
+        "leakage",
+        "similar"
+      ],
+      "expected_detection_passed": true
+    },
+    {
+      "injected": true,
+      "path": "train/bean_rust/zz_splitlens_blurred.jpg",
+      "source_path": "train/bean_rust/bean_rust_train.0.jpg",
+      "operation": "blur",
+      "description": "Gaussian blur, radius 14 pixels",
+      "expected_kinds": [
+        "blur"
+      ],
+      "sha256": "fa87991cb9a0cc5b5e08312476820c98e28cb69dc11f0c6b38b5f727be24d1db",
+      "detected_kinds": [
+        "blur",
+        "leakage",
+        "similar"
+      ],
+      "expected_detection_passed": true
+    },
+    {
+      "injected": true,
+      "path": "train/healthy/zz_splitlens_dark.jpg",
+      "source_path": "train/healthy/healthy_train.0.jpg",
+      "operation": "dark",
+      "description": "Brightness multiplied by 0.08",
+      "expected_kinds": [
+        "dark"
+      ],
+      "sha256": "9b7c4dd488b716a4af30d33ccee2ad638322f6ec42f5932ddb1aff0393e126f8",
+      "detected_kinds": [
+        "blur",
+        "dark"
+      ],
+      "expected_detection_passed": true
+    },
+    {
+      "injected": true,
+      "path": "validation/bean_rust/zz_splitlens_small.jpg",
+      "source_path": "train/bean_rust/bean_rust_train.0.jpg",
+      "operation": "small",
+      "description": "Resized to 96 × 96 pixels",
+      "expected_kinds": [
+        "small"
+      ],
+      "sha256": "f51ba25833f228670365b739aff3b597ab92bafdccb4a4dfa71990e36a69b2ad",
+      "detected_kinds": [
+        "leakage",
+        "similar",
+        "small"
+      ],
+      "expected_detection_passed": true
+    },
+    {
+      "injected": true,
+      "path": "test/angular_leaf_spot/zz_splitlens_broken.jpg",
+      "source_path": "train/angular_leaf_spot/angular_leaf_spot_train.0.jpg",
+      "operation": "broken",
+      "description": "Deliberately unreadable JPEG encoding",
+      "expected_kinds": [
+        "broken"
+      ],
+      "sha256": "de05e383043e45470236adc8b878358ca70787b698574973401ccaf7c2b563da",
+      "detected_kinds": [
+        "broken"
+      ],
+      "expected_detection_passed": true
+    }
+  ],
+  "controlled": {
+    "summary": {
+      "images": 1301,
+      "findings": 14,
+      "by_kind": {
+        "leakage": 4,
+        "duplicate": 1,
+        "similar": 4,
+        "blur": 2,
+        "dark": 1,
+        "bright": 0,
+        "small": 1,
+        "broken": 1
+      },
+      "excluded": 0,
+      "reviewed": 0
+    },
+    "elapsed_seconds": 40.27298889996018
+  },
+  "curated": {
+    "summary": {
+      "images": 1295,
+      "findings": 0,
+      "by_kind": {
+        "leakage": 0,
+        "duplicate": 0,
+        "similar": 0,
+        "blur": 0,
+        "dark": 0,
+        "bright": 0,
+        "small": 0,
+        "broken": 0
+      },
+      "excluded": 0,
+      "reviewed": 0
+    },
+    "elapsed_seconds": 36.24613509996561
+  },
+  "export_seconds": 5.547201399982441,
+  "original_image_hashes_preserved": 1295,
+  "excluded_only_injected_paths": true,
+  "no_source_images_modified": true
+}

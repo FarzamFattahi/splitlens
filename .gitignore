@@ -22,5 +22,6 @@ __pycache__/
 .pytest_cache/
 .ruff_cache/
 .demo-work/
+.datasets/
 .wheel-venv/
 build/

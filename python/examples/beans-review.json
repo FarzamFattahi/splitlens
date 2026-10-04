@@ -1,0 +1,41 @@
+{
+  "method": "AI-assisted qualitative visual inspection of all seven radius-8 candidate pairs at original resolution; no acquisition-provenance metadata or duplicate ground truth",
+  "policy": "Retain originals; no automatic exclusions. Repeated-image evidence and shared physical specimen identity are different questions.",
+  "pairs": [
+    {
+      "paths": ["train/angular_leaf_spot/angular_leaf_spot_train.298.jpg", "train/bean_rust/bean_rust_train.29.jpg"],
+      "status": "distinct_photographs",
+      "note": "Different leaf arrangements and visible mark patterns despite similar overall color and framing. No repeated photograph confirmed."
+    },
+    {
+      "paths": ["train/angular_leaf_spot/angular_leaf_spot_train.1.jpg", "train/bean_rust/bean_rust_train.328.jpg"],
+      "status": "distinct_photographs",
+      "note": "Different background and visible leaf-mark layout. Similar silhouettes alone do not establish duplication."
+    },
+    {
+      "paths": ["test/healthy/healthy_test.22.jpg", "train/healthy/healthy_train.125.jpg"],
+      "status": "provenance_unresolved",
+      "note": "The only radius-8 cross-split candidate: similar healthy-leaf silhouettes with different framing and background. A duplicate photograph is not confirmed; shared physical specimen/capture-session identity needs collection metadata."
+    },
+    {
+      "paths": ["train/angular_leaf_spot/angular_leaf_spot_train.178.jpg", "train/healthy/healthy_train.136.jpg"],
+      "status": "distinct_photographs",
+      "note": "Visible holes and leaf arrangements differ substantially. No repeated photograph confirmed."
+    },
+    {
+      "paths": ["train/healthy/healthy_train.125.jpg", "train/healthy/healthy_train.153.jpg"],
+      "status": "distinct_photographs",
+      "note": "Different backgrounds, lighting, and visible leaf-vein details. This review does not establish whether physical specimens are independent."
+    },
+    {
+      "paths": ["train/healthy/healthy_train.136.jpg", "train/healthy/healthy_train.34.jpg"],
+      "status": "distinct_photographs",
+      "note": "Different leaf orientation and background. Similar green leaf shapes can collide in a low-resolution hash; physical specimen identity is not verified."
+    },
+    {
+      "paths": ["train/angular_leaf_spot/angular_leaf_spot_train.96.jpg", "train/healthy/healthy_train.69.jpg"],
+      "status": "distinct_photographs",
+      "note": "Different compositions and leaf orientation. No repeated photograph confirmed; disease labels were not revalidated."
+    }
+  ]
+}

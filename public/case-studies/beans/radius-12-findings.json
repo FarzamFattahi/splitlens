@@ -1,0 +1,2387 @@
+[
+  {
+    "id": "leakage:image-126:image-160",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-126",
+      "image-160"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.7.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.126.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-46:image-176",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-46",
+      "image-176"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.10.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.140.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-23:image-233",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-23",
+      "image-233"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.29.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.192.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-15:image-260",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-15",
+      "image-260"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.21.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-65:image-271",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-271"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-25:image-313",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-25",
+      "image-313"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.30.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.264.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-65:image-334",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-65",
+      "image-334"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.283.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-30:image-352",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-30",
+      "image-352"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.35.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.3.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-23:image-428",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-23",
+      "image-428"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.29.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.58.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-65:image-514",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-514"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/bean_rust/bean_rust_train.134.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-75:image-596",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-75",
+      "image-596"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.37.jpg",
+      "train/bean_rust/bean_rust_train.208.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-62:image-623",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-62",
+      "image-623"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.25.jpg",
+      "train/bean_rust/bean_rust_train.232.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-110:image-708",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-110",
+      "image-708"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.3.jpg",
+      "train/bean_rust/bean_rust_train.309.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-104:image-802",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-104",
+      "image-802"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.24.jpg",
+      "train/bean_rust/bean_rust_train.81.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-65:image-820",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-820"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/bean_rust/bean_rust_train.98.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-26:image-847",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-26",
+      "image-847"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.31.jpg",
+      "train/healthy/healthy_train.121.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-102:image-851",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 8 / 64). Confirm visually before moving or excluding files.",
+    "distance": 8,
+    "imageIds": [
+      "image-102",
+      "image-851"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.125.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-102:image-852",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-102",
+      "image-852"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.126.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-118:image-882",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-118",
+      "image-882"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.37.jpg",
+      "train/healthy/healthy_train.153.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-112:image-909",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-112",
+      "image-909"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.31.jpg",
+      "train/healthy/healthy_train.178.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-73:image-1031",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-73",
+      "image-1031"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.35.jpg",
+      "train/healthy/healthy_train.288.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-118:image-1078",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-118",
+      "image-1078"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.37.jpg",
+      "train/healthy/healthy_train.33.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-65:image-1156",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-65",
+      "image-1156"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/healthy/healthy_train.93.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-102:image-1162",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-102",
+      "image-1162"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.99.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-1041:image-1174",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-1041",
+      "image-1174"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.297.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.19.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-227:image-1174",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-227",
+      "image-1174"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.187.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.19.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-260:image-1182",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-260",
+      "image-1182"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.26.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-428:image-1182",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-428",
+      "image-1182"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.58.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.26.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-439:image-1186",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-439",
+      "image-1186"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.68.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-25:image-1186",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-25",
+      "image-1186"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.30.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-233:image-1186",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-233",
+      "image-1186"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.192.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-11:image-1200",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-11",
+      "image-1200"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.18.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.42.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-873:image-1255",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-873",
+      "image-1255"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.145.jpg",
+      "validation/healthy/healthy_val.11.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-110:image-1264",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 11 / 64). Confirm visually before moving or excluding files.",
+    "distance": 11,
+    "imageIds": [
+      "image-110",
+      "image-1264"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.3.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-620:image-1264",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-620",
+      "image-1264"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.23.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-663:image-1264",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-663",
+      "image-1264"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.269.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-1006:image-1264",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 10 / 64). Confirm visually before moving or excluding files.",
+    "distance": 10,
+    "imageIds": [
+      "image-1006",
+      "image-1264"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.265.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-75:image-1267",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 9 / 64). Confirm visually before moving or excluding files.",
+    "distance": 9,
+    "imageIds": [
+      "image-75",
+      "image-1267"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.37.jpg",
+      "validation/healthy/healthy_val.22.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-882:image-1267",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-882",
+      "image-1267"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.153.jpg",
+      "validation/healthy/healthy_val.22.jpg"
+    ]
+  },
+  {
+    "id": "leakage:image-894:image-1275",
+    "kind": "leakage",
+    "title": "Similar images across splits",
+    "detail": "Near-duplicate candidate spans assigned splits (dHash distance 12 / 64). Confirm visually before moving or excluding files.",
+    "distance": 12,
+    "imageIds": [
+      "image-894",
+      "image-1275"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.164.jpg",
+      "validation/healthy/healthy_val.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-21:image-30",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-21",
+      "image-30"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.27.jpg",
+      "test/angular_leaf_spot/angular_leaf_spot_test.35.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-143:image-157",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-143",
+      "image-157"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.110.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.123.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-126:image-160",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-126",
+      "image-160"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.7.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.126.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-46:image-176",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-46",
+      "image-176"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.10.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.140.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-186:image-212",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-186",
+      "image-212"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.15.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.173.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-162:image-217",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-162",
+      "image-217"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.128.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.178.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-23:image-233",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-23",
+      "image-233"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.29.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.192.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-15:image-260",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-15",
+      "image-260"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.21.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-65:image-271",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-271"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-25:image-313",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-25",
+      "image-313"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.30.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.264.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-260:image-328",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-260",
+      "image-328"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.278.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-176:image-328",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-176",
+      "image-328"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.140.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.278.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-65:image-334",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-65",
+      "image-334"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.283.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-328:image-351",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-328",
+      "image-351"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.278.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.299.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-212:image-352",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-212",
+      "image-352"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.173.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-30:image-352",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-30",
+      "image-352"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.35.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-233:image-359",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-233",
+      "image-359"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.192.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.305.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-260:image-385",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-260",
+      "image-385"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.329.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-157:image-396",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-157",
+      "image-396"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.123.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.339.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-328:image-396",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-328",
+      "image-396"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.278.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.339.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-350:image-415",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 9 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 9,
+    "imageIds": [
+      "image-350",
+      "image-415"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.298.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.46.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-309:image-421",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-309",
+      "image-421"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.260.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.51.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-359:image-427",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-359",
+      "image-427"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.305.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.57.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-23:image-428",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-23",
+      "image-428"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.29.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.58.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-180:image-428",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-180",
+      "image-428"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.144.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.58.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-415:image-432",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-415",
+      "image-432"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.46.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.61.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-324:image-435",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-324",
+      "image-435"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.274.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.64.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-176:image-438",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-176",
+      "image-438"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.140.jpg",
+      "train/angular_leaf_spot/angular_leaf_spot_train.67.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-65:image-514",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-514"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/bean_rust/bean_rust_train.134.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-350:image-535",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-350",
+      "image-535"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.298.jpg",
+      "train/bean_rust/bean_rust_train.153.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-464:image-554",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-464",
+      "image-554"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.90.jpg",
+      "train/bean_rust/bean_rust_train.170.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-503:image-593",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-503",
+      "image-593"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.124.jpg",
+      "train/bean_rust/bean_rust_train.205.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-75:image-596",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-75",
+      "image-596"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.37.jpg",
+      "train/bean_rust/bean_rust_train.208.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-515:image-599",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-515",
+      "image-599"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.135.jpg",
+      "train/bean_rust/bean_rust_train.210.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-349:image-602",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-349",
+      "image-602"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.297.jpg",
+      "train/bean_rust/bean_rust_train.213.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-271:image-615",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-271",
+      "image-615"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg",
+      "train/bean_rust/bean_rust_train.225.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-415:image-615",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-415",
+      "image-615"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.46.jpg",
+      "train/bean_rust/bean_rust_train.225.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-519:image-615",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-519",
+      "image-615"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.139.jpg",
+      "train/bean_rust/bean_rust_train.225.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-252:image-615",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-252",
+      "image-615"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.209.jpg",
+      "train/bean_rust/bean_rust_train.225.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-62:image-623",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-62",
+      "image-623"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.25.jpg",
+      "train/bean_rust/bean_rust_train.232.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-350:image-686",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-350",
+      "image-686"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.298.jpg",
+      "train/bean_rust/bean_rust_train.29.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-110:image-708",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-110",
+      "image-708"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.3.jpg",
+      "train/bean_rust/bean_rust_train.309.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-237:image-720",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-237",
+      "image-720"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.196.jpg",
+      "train/bean_rust/bean_rust_train.32.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-130:image-729",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-130",
+      "image-729"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.1.jpg",
+      "train/bean_rust/bean_rust_train.328.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-350:image-746",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-350",
+      "image-746"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.298.jpg",
+      "train/bean_rust/bean_rust_train.343.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-186:image-755",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-186",
+      "image-755"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.15.jpg",
+      "train/bean_rust/bean_rust_train.39.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-382:image-755",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-382",
+      "image-755"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.326.jpg",
+      "train/bean_rust/bean_rust_train.39.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-217:image-763",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 9 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 9,
+    "imageIds": [
+      "image-217",
+      "image-763"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.178.jpg",
+      "train/bean_rust/bean_rust_train.46.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-104:image-802",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-104",
+      "image-802"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.24.jpg",
+      "train/bean_rust/bean_rust_train.81.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-65:image-820",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-65",
+      "image-820"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/bean_rust/bean_rust_train.98.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-802:image-825",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-802",
+      "image-825"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.81.jpg",
+      "train/healthy/healthy_train.100.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-449:image-844",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-449",
+      "image-844"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.77.jpg",
+      "train/healthy/healthy_train.118.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-26:image-847",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-26",
+      "image-847"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.31.jpg",
+      "train/healthy/healthy_train.121.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-271:image-851",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-271",
+      "image-851"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg",
+      "train/healthy/healthy_train.125.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-102:image-851",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-102",
+      "image-851"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.125.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-704:image-851",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-704",
+      "image-851"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.305.jpg",
+      "train/healthy/healthy_train.125.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-683:image-851",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-683",
+      "image-851"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.287.jpg",
+      "train/healthy/healthy_train.125.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-102:image-852",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-102",
+      "image-852"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.126.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-851:image-852",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-851",
+      "image-852"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.125.jpg",
+      "train/healthy/healthy_train.126.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-309:image-863",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-309",
+      "image-863"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.260.jpg",
+      "train/healthy/healthy_train.136.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-217:image-863",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-217",
+      "image-863"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.178.jpg",
+      "train/healthy/healthy_train.136.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-118:image-882",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-118",
+      "image-882"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.37.jpg",
+      "train/healthy/healthy_train.153.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-851:image-882",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-851",
+      "image-882"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.125.jpg",
+      "train/healthy/healthy_train.153.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-257:image-894",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-257",
+      "image-894"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.213.jpg",
+      "train/healthy/healthy_train.164.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-503:image-894",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-503",
+      "image-894"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.124.jpg",
+      "train/healthy/healthy_train.164.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-112:image-909",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-112",
+      "image-909"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.31.jpg",
+      "train/healthy/healthy_train.178.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-888:image-918",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-888",
+      "image-918"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.159.jpg",
+      "train/healthy/healthy_train.186.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-847:image-930",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-847",
+      "image-930"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.121.jpg",
+      "train/healthy/healthy_train.197.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-888:image-940",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-888",
+      "image-940"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.159.jpg",
+      "train/healthy/healthy_train.205.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-601:image-941",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-601",
+      "image-941"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.212.jpg",
+      "train/healthy/healthy_train.206.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-271:image-955",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-271",
+      "image-955"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg",
+      "train/healthy/healthy_train.219.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-448:image-956",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-448",
+      "image-956"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.76.jpg",
+      "train/healthy/healthy_train.22.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-593:image-967",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-593",
+      "image-967"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.205.jpg",
+      "train/healthy/healthy_train.23.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-729:image-988",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-729",
+      "image-988"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.328.jpg",
+      "train/healthy/healthy_train.249.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-851:image-996",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-851",
+      "image-996"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.125.jpg",
+      "train/healthy/healthy_train.256.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-289:image-1002",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-289",
+      "image-1002"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.242.jpg",
+      "train/healthy/healthy_train.261.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-466:image-1011",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-466",
+      "image-1011"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.92.jpg",
+      "train/healthy/healthy_train.27.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-750:image-1012",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-750",
+      "image-1012"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.347.jpg",
+      "train/healthy/healthy_train.270.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-888:image-1024",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-888",
+      "image-1024"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.159.jpg",
+      "train/healthy/healthy_train.281.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-73:image-1031",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-73",
+      "image-1031"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.35.jpg",
+      "train/healthy/healthy_train.288.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-534:image-1033",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-534",
+      "image-1033"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.152.jpg",
+      "train/healthy/healthy_train.29.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-252:image-1041",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-252",
+      "image-1041"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.209.jpg",
+      "train/healthy/healthy_train.297.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-271:image-1043",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-271",
+      "image-1043"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg",
+      "train/healthy/healthy_train.299.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-1041:image-1043",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-1041",
+      "image-1043"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.297.jpg",
+      "train/healthy/healthy_train.299.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-835:image-1053",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-835",
+      "image-1053"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.11.jpg",
+      "train/healthy/healthy_train.307.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-484:image-1074",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-484",
+      "image-1074"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.107.jpg",
+      "train/healthy/healthy_train.326.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-763:image-1074",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-763",
+      "image-1074"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.46.jpg",
+      "train/healthy/healthy_train.326.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-118:image-1078",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-118",
+      "image-1078"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.37.jpg",
+      "train/healthy/healthy_train.33.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-965:image-1078",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-965",
+      "image-1078"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.228.jpg",
+      "train/healthy/healthy_train.33.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-863:image-1089",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-863",
+      "image-1089"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.136.jpg",
+      "train/healthy/healthy_train.34.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-449:image-1110",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-449",
+      "image-1110"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.77.jpg",
+      "train/healthy/healthy_train.51.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-470:image-1110",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-470",
+      "image-1110"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.96.jpg",
+      "train/healthy/healthy_train.51.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-321:image-1110",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-321",
+      "image-1110"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.271.jpg",
+      "train/healthy/healthy_train.51.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-882:image-1110",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 9 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 9,
+    "imageIds": [
+      "image-882",
+      "image-1110"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.153.jpg",
+      "train/healthy/healthy_train.51.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-996:image-1112",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-996",
+      "image-1112"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.256.jpg",
+      "train/healthy/healthy_train.53.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-851:image-1112",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-851",
+      "image-1112"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.125.jpg",
+      "train/healthy/healthy_train.53.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-470:image-1129",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 8 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 8,
+    "imageIds": [
+      "image-470",
+      "image-1129"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.96.jpg",
+      "train/healthy/healthy_train.69.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-227:image-1139",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-227",
+      "image-1139"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.187.jpg",
+      "train/healthy/healthy_train.78.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-271:image-1150",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-271",
+      "image-1150"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.226.jpg",
+      "train/healthy/healthy_train.88.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-65:image-1156",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-65",
+      "image-1156"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.28.jpg",
+      "train/healthy/healthy_train.93.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-879:image-1161",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-879",
+      "image-1161"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.150.jpg",
+      "train/healthy/healthy_train.98.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-102:image-1162",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-102",
+      "image-1162"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.22.jpg",
+      "train/healthy/healthy_train.99.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-851:image-1162",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-851",
+      "image-1162"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.125.jpg",
+      "train/healthy/healthy_train.99.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-1041:image-1174",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-1041",
+      "image-1174"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.297.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.19.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-227:image-1174",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-227",
+      "image-1174"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.187.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.19.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-260:image-1182",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-260",
+      "image-1182"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.216.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.26.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-428:image-1182",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-428",
+      "image-1182"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.58.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.26.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-439:image-1186",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-439",
+      "image-1186"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.68.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-25:image-1186",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-25",
+      "image-1186"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.30.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-233:image-1186",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-233",
+      "image-1186"
+    ],
+    "paths": [
+      "train/angular_leaf_spot/angular_leaf_spot_train.192.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.3.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-11:image-1200",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-11",
+      "image-1200"
+    ],
+    "paths": [
+      "test/angular_leaf_spot/angular_leaf_spot_test.18.jpg",
+      "validation/angular_leaf_spot/angular_leaf_spot_val.42.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-873:image-1255",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-873",
+      "image-1255"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.145.jpg",
+      "validation/healthy/healthy_val.11.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-110:image-1264",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 11 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 11,
+    "imageIds": [
+      "image-110",
+      "image-1264"
+    ],
+    "paths": [
+      "test/healthy/healthy_test.3.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-620:image-1264",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-620",
+      "image-1264"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.23.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-663:image-1264",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-663",
+      "image-1264"
+    ],
+    "paths": [
+      "train/bean_rust/bean_rust_train.269.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-1006:image-1264",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 10 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 10,
+    "imageIds": [
+      "image-1006",
+      "image-1264"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.265.jpg",
+      "validation/healthy/healthy_val.2.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-75:image-1267",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 9 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 9,
+    "imageIds": [
+      "image-75",
+      "image-1267"
+    ],
+    "paths": [
+      "test/bean_rust/bean_rust_test.37.jpg",
+      "validation/healthy/healthy_val.22.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-882:image-1267",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-882",
+      "image-1267"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.153.jpg",
+      "validation/healthy/healthy_val.22.jpg"
+    ]
+  },
+  {
+    "id": "similar:image-894:image-1275",
+    "kind": "similar",
+    "title": "Visually similar pair",
+    "detail": "64-bit dHash distance 12 / 64 with compatible aspect ratio, exposure, and available mean-color measurements. A candidate, not proof of identity.",
+    "distance": 12,
+    "imageIds": [
+      "image-894",
+      "image-1275"
+    ],
+    "paths": [
+      "train/healthy/healthy_train.164.jpg",
+      "validation/healthy/healthy_val.3.jpg"
+    ]
+  }
+]

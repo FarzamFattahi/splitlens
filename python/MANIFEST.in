@@ -1,4 +1,4 @@
 include LICENSE README.md pyproject.toml
 recursive-include src *.py py.typed
 recursive-include tests *.py *.json
-recursive-include examples *.py
+recursive-include examples *.py *.json *.txt
