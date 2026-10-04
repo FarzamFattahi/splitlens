@@ -31,6 +31,49 @@ The published Python wheel audited **1,295 real Makerere bean-leaf photographs**
 
 In a separate copy, **six deliberately added defects produced 14 findings** and passed all six expected checks. Explicitly excluding those added files restored all **1,295 original images with unchanged SHA-256 hashes**. The report includes actual photographs, downloadable audits and CSVs, source checksums, honest limitations, and a runnable reproduction script.
 
+## See what SplitLens detects
+
+These are actual Makerere dataset photographs and audit previews. The duplicate, blur, and dark examples below were **deliberately added to a separate test copy**; they were not faults found in the untouched dataset.
+
+### 1. Catch a training image copied into the test set
+
+|                                           Training image — keep                                            |                                         Identical copy in test — exclude                                          |
+| :--------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------: |
+| ![Original healthy bean leaf in the training split](public/case-studies/beans/images/cbe6ae078435177d.jpg) | ![Deliberately copied healthy bean leaf in the test split](public/case-studies/beans/images/cbe6ae078435177d.jpg) |
+|                                    `train/healthy/healthy_train.0.jpg`                                     |                                    `test/healthy/zz_splitlens_exact-copy.jpg`                                     |
+
+**What it does:** flags an exact duplicate and potential train/test leakage. **How:** SHA-256 confirms that the encoded file bytes match; the folder paths place the two files in different splits. Reviewing this before training helps prevent evaluating a model on images it has already seen.
+
+### 2. Spot images that may weaken your training data
+
+|                                               Original photograph                                                |                                           Added blurred version                                           |
+| :--------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
+| ![Original bean-rust photograph with visible leaf detail](public/case-studies/beans/images/184302a8d334f4ca.jpg) | ![Deliberately blurred copy with lost leaf detail](public/case-studies/beans/images/2a95b93ad6ae38a8.jpg) |
+|                                               Sharpness **556.9**                                                |                                 Sharpness **1.7** — flagged below **60**                                  |
+
+**How:** SplitLens measures changes in image intensity using Laplacian variance. Less detail usually produces a lower sharpness score. You review the photograph before deciding whether blur is a problem for your particular task.
+
+|                                            Original photograph                                             |                                        Added dark version                                         |
+| :--------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------: |
+| ![Original healthy bean leaf with visible exposure](public/case-studies/beans/images/cbe6ae078435177d.jpg) | ![Deliberately darkened healthy bean leaf](public/case-studies/beans/images/fa3c316fbb00b989.jpg) |
+
+**How:** average grayscale intensity identifies very dark or bright images. This deliberately darkened copy triggered the dark-image check. These measurements describe image quality, not whether a leaf is healthy or diseased.
+
+### 3. Review similar images instead of assuming they are duplicates
+
+|                                                   Original test photograph                                                   |                                                   Original training photograph                                                   |
+| :--------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+| ![Original test-set healthy leaf, an unresolved similarity candidate](public/case-studies/beans/images/1688649186a070fa.jpg) | ![Original training-set healthy leaf, an unresolved similarity candidate](public/case-studies/beans/images/c2bad7a70a16d16a.jpg) |
+|                                                    `healthy_test.22.jpg`                                                     |                                                     `healthy_train.125.jpg`                                                      |
+
+These two **untouched source images** became a cross-split candidate at the exploratory radius of 8. Their 64-bit perceptual hashes differ in eight positions. SplitLens uses this compact visual fingerprint to suggest comparisons; a match is a request for review. **A duplicate photograph was not confirmed, and whether they show the same physical leaf remains unresolved.** Both originals were retained.
+
+### 4. Export your decisions with evidence
+
+**Audit → compare the images → explicitly Keep / Exclude → export a new dataset.** In the controlled experiment, excluding only the six injected files restored **1,295 original photographs**, with every retained file's SHA-256 unchanged. SplitLens copies retained files into a separate dataset and writes the audit and decision manifest. It does not sharpen, brighten, or overwrite your originals.
+
+Photographs © 2020 AIR Lab Makerere University, [MIT licensed](docs/case-studies/beans/LICENSE.dataset). Previews are resized derivatives; the [provenance record](public/case-studies/beans/evidence.json) connects each one to its original file. [Inspect every result and reproduce the experiment](docs/case-studies/beans/README.md).
+
 ## Why another dataset tool?
 
 [FiftyOne](https://docs.voxel51.com/recipes/image_deduplication.html), [fastdup](https://github.com/visual-layer/fastdup), and [CleanVision](https://github.com/cleanlab/cleanvision) offer powerful dataset inspection. SplitLens is a smaller entry point for a different workflow: **check a modest image dataset privately, review evidence, and leave with a portable repair manifest**. The browser app needs no Python environment. The Python package brings the same matching rules to local automation with NumPy and Pillow.
